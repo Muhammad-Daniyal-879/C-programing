@@ -1,0 +1,8 @@
+#include<stdio.h> //standard i/o header file
+#include<cmath.h> //used to solve maths
+int main () // main function
+int //used to initialize an interger
+flaot //used to initialize a floating point
+char //used to initialize a character
+printf //used to print any output
+scaf //used to save an input
