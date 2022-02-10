@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include <cmath.h>
+int main()
+{
+	float a,b;
+	char op;
+	printf("Enter two numbers and 1 operator: ");
+	scanf("%f %f %c",&a,&b,&op);
+	
+	switch(op)
+	{
+		case '+':
+			printf("\na+b = %f",a+b);
+			break;
+      
+		case '-':
+			printf("\na-b = %f", a-b);
+			break;
+      
+		case '/':
+     			printf("\na/b = %f", a/b);
+			break;
+      
+		default:
+			printf("\nInvalid operator!");
+			break;
+	}
+	
+	return 0;
+}
